@@ -1,32 +1,32 @@
 public class Names {
     
     public class names {
-        private String fName;
-        private String mName;
-        private String lName;
+        private String fstName;
+        private String midName;
+        private String lstName;
         
-        public void setfName(String fName) {
-            this.fName = fName;
+        public void setfstName(String fstName) {
+            this.fstName = fstName;
         }
         
-        public String getfName() {
-            return fName;
+        public String getfstName() {
+            return fstName;
         }
         
-        public void setmName(String mName) {
-            this.mName=mName;
+        public void setmidName(String midName) {
+            this.midName=midName;
         }
         
-        public String getmName() {
-            return mName;
+        public String getmidName() {
+            return midName;
         }
         
-        public void setlName(String lName) {
-            this.lName = lName;
+        public void setlstName(String lstName) {
+            this.lstName = lstName;
         }
         
-        public String getlName() {
-            return lName;
+        public String getlstName() {
+            return lstName;
         }
     
     }
