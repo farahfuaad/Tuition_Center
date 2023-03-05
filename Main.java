@@ -5,6 +5,7 @@ public class Main
     // application code
 	public static void main(String[] args) {
 
+
         Listofcentres Johor = new Listofcentres(); //the state or area that the centers are in
 		Centres centrename = new Centres();	//the center
 		centrename.setNameofcentre("Pandai Sdn.Bhd");	
@@ -68,27 +69,13 @@ public class Main
         Amin.AddStudent(mila);
 		centrename.AddTeacher(Amin);
 
-		try (//select teacher
-		Scanner scanner = new Scanner(System.in)) {
-			System.out.println("Select Teacher's Name");
-			String num = scanner.nextLine();
-
-				if (num.equals("1")){
-					System.out.println("Name of center: "+Johor.getCentres().get(0).getNameofcentre());
-					System.out.println("Number of tutor: "+centrename.getnumberoftutor());
-					centrename.displaytutors();
-					centrename.displayaveragemarksforcenter();
-					System.out.println("\nTeacher's Name: "+Amin.getname().getfstName()+" "+Amin.getname().getlstName());
-					System.out.println("Number of students: "+Amin.getnumberofstudents()+"\n");
-					Amin.displaystudents();
-					Amin.displayaverageMarkofStudents();  
-				}
-				else if(num.equals("2")){
-					System.out.println("k bye ");
-					return;
-				}
-		}
-
-		 
+        System.out.println("\nCentre Name: "+Johor.getCentres().get(0).getNameofcentre());
+		System.out.println("Number of Teachers available: "+centrename.getnumberoftutor());
+		centrename.displaytutors();
+		centrename.displayaveragemarksforcenter();
+		System.out.println("\nTeacher's Name: "+Amin.getname().getfstName()+" "+Amin.getname().getlstName());
+		System.out.println("Number of Students: "+Amin.getnumberofstudents()+"\n");
+		Amin.displaystudents();
+		Amin.displayaverageMarkofStudents();   
 	}
 }
