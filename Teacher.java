@@ -93,7 +93,7 @@ public class Teacher {
 			sum+=this.students.get(i).getaverageMark();
 		}
 		average = sum/this.students.size();
-		System.out.println("Average mark of students under tutor "+this.getname().getlName()+": "+df.format(average));
+		System.out.println("Average mark of students under tutor "+this.getnames().getlName()+": "+df.format(average));
 	}
 	
 	public double getaverageMarkofStudents() { // get results of students under the tutor

@@ -1,7 +1,6 @@
-
 public class Names {
     
-    public class name {
+    public class names {
         private String fName;
         private String mName;
         private String lName;
