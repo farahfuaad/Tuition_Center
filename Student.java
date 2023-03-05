@@ -45,7 +45,7 @@ public class Student {
 		return studAddress;
 	}
 
-	public void setstudAddress(Address studAddress) {
+	public void setstudAddress(Address Address) {
 		studAddress = Address;
 	}
 
