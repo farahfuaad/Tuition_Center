@@ -11,13 +11,13 @@ public class Main
         //teacher
         Teacher Amin = new Teacher();
 		Names Tname = new Names();
-		Tname.setfName("Mohd");
-		Tname.setlName("Amin");
+		Tname.setfstName("Mohd");
+		Tname.setlstName("Amin");
 		Amin.setName(Tname);
 
         Student mike = new Student(); //student in a center
 		Names name1 = new Names();
-		name1.setfName("Michael");
+		name1.setfstName("Michael");
 		mike.setName(name1);
 		try {
 			mike.setMaxlistMark(3);
@@ -32,7 +32,7 @@ public class Main
 
         Student mika = new Student(); //student in a center
 		Names name2 = new Names();
-		name2.setfName("Mikail");
+		name2.setfstName("Mikail");
 		mika.setName(name2);
 		try {
 			mika.setMaxlistMark(3);
@@ -47,7 +47,7 @@ public class Main
 
         Student mila = new Student(); //student in a center
 		Names name3 = new Names();
-		name3.setfName("Milani");
+		name3.setfstName("Milani");
 		mila.setName(name3);
 		try {
 			mila.setMaxlistMark(3);
@@ -69,7 +69,7 @@ public class Main
 		System.out.println("Number of tutor: "+centrename.getnumberoftutor());
 		centrename.displaytutors();
 		centrename.displayaveragemarksforcenter();
-		System.out.println("\nTutor: "+Amin.getname().getfName()+" "+Amin.getname().getlName());
+		System.out.println("\nTutor: "+Amin.getname().getfstName()+" "+Amin.getname().getlstName());
 		System.out.println("Number of students: "+Amin.getnumberofstudents()+"\n");
 		Amin.displaystudents();
 		Amin.displayaverageMarkofStudents();   

@@ -93,7 +93,7 @@ public class Teacher {
 			sum+=this.students.get(i).getaverageMark();
 		}
 		average = sum/this.students.size();
-		System.out.println("Average mark of students under tutor "+this.getnames().getlName()+": "+df.format(average));
+		System.out.println("Average mark of students under tutor "+this.getname().getlstName()+": "+df.format(average));
 	}
 	
 	public double getaverageMarkofStudents() { // get results of students under the tutor
@@ -107,7 +107,7 @@ public class Teacher {
 	
 	public void displaystudents() { // display students progress 
 		for(int i=0;i<this.students.size();i++) {
-			System.out.println("Student: "+this.students.get(i).getName().getfName());
+			System.out.println("Student: "+this.students.get(i).getName().getfstName());
 			System.out.println("Average mark: "+df.format(this.students.get(i).getaverageMark()));
 			System.out.println("Highest mark: "+this.students.get(i).gethighestMark());
 			System.out.println("Lowest mark: "+this.students.get(i).getlowestMark()+"\n");
