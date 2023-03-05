@@ -1,6 +1,5 @@
 public class Names {
-    
-    public class names {
+
         private String fstName;
         private String midName;
         private String lstName;
@@ -28,6 +27,5 @@ public class Names {
         public String getlstName() {
             return lstName;
         }
-    
-    }
+        
 }

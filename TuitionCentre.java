@@ -50,7 +50,7 @@ public class TuitionCentre {
 	
 	public void displaytutors() {
 		for(int i=0;i<this.tutors.size();i++) {
-			System.out.println("Tutor-"+(i+1)+": "+this.tutors.get(i).getNames().getlName());
+			System.out.println("Tutor-"+(i+1)+": "+this.tutors.get(i).getname().getlstName());
 		}
 	}
 	
