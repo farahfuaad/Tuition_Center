@@ -18,7 +18,7 @@ public class Main
         Student mike = new Student(); //student in a center
 		Names name1 = new Names();
 		name1.setfstName("Michael");
-		mike.setName(name1);
+		mike.setNames(name1);
 		try {
 			mike.setMaxlistMark(3);
 			mike.addMarks(30);
@@ -33,7 +33,7 @@ public class Main
         Student mika = new Student(); //student in a center
 		Names name2 = new Names();
 		name2.setfstName("Mikail");
-		mika.setName(name2);
+		mika.setNames(name2);
 		try {
 			mika.setMaxlistMark(3);
 			mika.addMarks(30);
@@ -48,7 +48,7 @@ public class Main
         Student mila = new Student(); //student in a center
 		Names name3 = new Names();
 		name3.setfstName("Milani");
-		mila.setName(name3);
+		mila.setNames(name3);
 		try {
 			mila.setMaxlistMark(3);
 			mila.addMarks(30);
